@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+
+/* Navigation Section */
+
+#navbar {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+
+#navbar #logo {
+    padding-left: 20px;
+}
+
+#navbar #logo img {
+    position: absolute;
+    left: 13%;
+
+}
+
+/* Navigation :  anchor tags*/
+#navbar .menu{
+    
+    margin-right: 0;
+    margin-left: 16%;
+}
+
+#navbar .menu a {
+    text-decoration: none;
+    padding: 10px 31px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+
+}
+
+/* Banner Section */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banner .left h1 {
+    position: absolute;
+    width: 480px;
+    height: 199px;
+    left: calc(50% - 480px/2 - 320px);
+    top: 360px;
+
+    /* Heading-1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 97.2%;
+
+    /* or 58px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.banner .left p {
+    position: absolute;
+    width: 575px;
+    height: 359px;
+    left: calc(50% - 575px/2 - 272.5px);
+    top: 657px;
+
+    /* Heading-2 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+
+    /* or 37px */
+    letter-spacing: -0.03em;
+
+    /* Main Gray */
+    color: #606060
+}
+
+.banner .left h5 {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: calc(50% - 124px/2 - 498px);
+    top: 1089px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.banner .left span {
+    position: absolute;
+    width: 436px;
+    height: 54px;
+    left: calc(50% - 436px/2 - 155px);
+    top: 1086px;
+
+    /* Body */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.banner .right img {
+
+
+    position: absolute;
+    width: 421px;
+    height: 590px;
+    left: calc(50% - 421px/2 + 349.5px);
+    top: 360px;
+
+
+}
+
+.new_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new_section .left h5 {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: calc(50% - 124px/2 - 498px);
+    top: 1089px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+    color: #181717;
+
+
+
+}
+
+.new_section .right p {
+    position: absolute;
+    width: 436px;
+    height: 54px;
+    left: calc(50% - 436px/2 - 155px);
+    top: 1086px;
+
+    /* Body */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.new_section .right h5 {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: calc(50% - 213px/2 - 265.5px);
+    top: 1164px;
+
+    /* Body */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* identical to box height, or 22px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.new_section_two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.new_section_two .left h5 {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: calc(50% - 124px/2 - 498px);
+    top: 1261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.new_section_two .right p {
+    position: absolute;
+    width: 401px;
+    height: 44px;
+    left: calc(50% - 401px/2 - 172.5px);
+    top: 1258px;
+
+    /* Body */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* or 22px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.last_separator .separator {
+    position: absolute;
+    width: 1120px;
+    height: 2px;
+    left: calc(50% - 1120px/2);
+    top: 1436px;
+
+    background: #181717;
+}
+
+
+
+/* Footer Section */
+
+.footer_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer_section .left h4 {
+    position: absolute;
+    width: 347px;
+    height: 71px;
+    left: calc(50% - 347px/2 - 386.5px);
+    top: 1509px;
+
+    /* Heading-2 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+
+    /* or 37px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+.footer_section .left span {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: calc(50% - 21px/2 - 290.5px);
+    top: 1560px;
+
+    /* Main Black */
+    background: #181717;
+    transform: rotate(360deg);
+}
+
+
+.footer_section .right h4 {
+    position: absolute;
+    width: 372px;
+    height: 37px;
+    left: calc(50% - 372px/2 + 295px);
+    top: 1516px;
+
+    /* Heading-2 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+
+    /* or 37px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+}
+
+.footer_section .right h6 {
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: calc(50% - 110px/2 + 164px);
+    top: 1580px;
+
+    /* Body */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    /* identical to box height, or 22px */
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+    color: #181717;
+
+
+}
+
+/* Last Section */
+
+
+
+.about_footer {
+    position: absolute;
+    width: 1120px;
+    height: 20px;
+    left: 160px;
+    top: 1772px;
+    padding-bottom: 50px;
+
+}
+
+.about_footer_Name {
+    position: absolute;
+    left: 0%;
+    right: 75.82%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Navigation */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Secondary */
+
+    color: #2429AF;
+
+}
+
+.about_footer_Artstation {
+    position: absolute;
+    left: 70.59%;
+    right: 20.64%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Navigation */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.about_footer_Linkedin {
+    position: absolute;
+    left: 82.2%;
+    right: 9.03%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Navigation */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.about_footer_Twitter {
+    position: absolute;
+    left: 93.8%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Navigation */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+
+}
